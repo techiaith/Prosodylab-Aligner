@@ -49,7 +49,7 @@ class PronDict(object):
 
     def __init__(self, filename, phoneset):
         # build up dictionary
-        with open(filename, "r") as source:
+        with open(filename, "r",encoding='utf8') as source:
             self.d = defaultdict(list)
             for (i, word, pron) in PronDict.pronify(source):
                 for ph in pron:
