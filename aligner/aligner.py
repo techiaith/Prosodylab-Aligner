@@ -139,6 +139,7 @@ class Aligner(object):
                         "-M", self.nxtdir,
                         "-H", os.path.join(self.curdir, MACROS),
                         "-H", os.path.join(self.curdir, HMMDEFS),
+                        "-T", "1", 
                         "-t"] + self.pruning + [corpus.phons])
             self._nxtdir()
 

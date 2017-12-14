@@ -1,8 +1,7 @@
 # for human reading only
 authors: Dewi Bryn Jones
 language: Welsh
-citation: "K. Gorman, J. Howell, and M. Wagner. 2011. Prosodylab-Aligner: A tool for forced alignment of laboratory speech. Canadian Acoustics, 39(3), 192-193."
-URL: http://prosodylab.org/tools/aligner/
+URL: http://techiaith.cymru/gorfodwr-alinio/ 
 
 # basic features
 samplerate: 16000 # in Hz
@@ -45,3 +44,4 @@ HERest:
 # specs for the decoder; change at your own risk
 HVite:
     SFAC: 5
+

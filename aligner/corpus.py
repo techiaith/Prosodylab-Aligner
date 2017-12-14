@@ -217,7 +217,7 @@ DE {1}
         """
         Compute audio features
         """
-        check_call(["HCopy", "-C", self.HCopy_cfg, "-S", self.audio_scp])
+        check_call(["HCopy", "-C", self.HCopy_cfg, "-S", self.audio_scp, "-T", "1"])
 
     def __del__(self):
         rmtree(self.tmpdir) 
